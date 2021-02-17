@@ -1,6 +1,6 @@
 name: documentation-test
 title: Documentation Test
-version: "1.0"
+version: "2.0"
 nav:
   - modules/ROOT/nav.adoc
   - modules/module-one/nav.adoc

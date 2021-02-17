@@ -2,6 +2,9 @@
 
 This is version *{page-component-version}* of Module One in Component B.
 
+To switch to version 1.0 of this page, use the page version selector.
+The selector is on the task bar, located near the upper right corner of the page.
+
 == Page source
 
 This page is sourced from [.path]_demo-component-b/docs/modules/module-one/pages/overview.adoc_.
@@ -12,4 +15,10 @@ To create a cross reference *to this page from another page in Module One*, the 
 
 To create a cross reference *to this page from a page in the ROOT module of Component B*, the xref syntax would be `\xref:module-one:overview.adoc[]`.
 
-To create a cross reference *to this page from a page in Component A*, the xref syntax would be `\xref:1.0@component-b:module-one:overview.adoc[]`.
+=== Always target the latest version of this page
+
+To create a cross reference *to the latest version of this page from a page in Component A*, the xref syntax would be `\xref:component-b:module-one:overview.adoc[]`.
+
+=== Target a specific version of this page
+
+To create a cross reference *to version 1.0 of this page from a page in Component A*, the xref syntax would be `\xref:1.0@component-b:module-one:overview.adoc[]`.
